@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:1018,&quot;PAPER_HEIGHT&quot;:761,&quot;PAPER_SCROLL_LEFT&quot;:1957,&quot;PAPER_SCROLL_TOP&quot;:2008,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout size-full="true" margin="true"> 
+   <vaadin-horizontal-layout spacing="true" size-full="true" :expand=""> 
+    <vaadin-vertical-layout width="600px" height-full="true"> 
+     <vaadin-horizontal-layout width-full="true"> 
+      <vaadin-text-field width-full="true" :expand=""></vaadin-text-field> 
+      <vaadin-button icon="fonticon://FontAwesome/f002" style-name="primary" plain-text=""></vaadin-button> 
+     </vaadin-horizontal-layout> 
+     <vaadin-grid size-full="true" _id="grid" :expand=""></vaadin-grid> 
+    </vaadin-vertical-layout> 
+    <vaadin-horizontal-layout spacing="true" width-full="true" _id="iconDetailsForm" :expand=""> 
+     <vaadin-label style-name="huge" width="40px" _id="iconHtml" :middle="" :center=""> 
+      <span class="v-icon" style="font-family: FontAwesome;"></span> 
+     </vaadin-label> 
+     <vaadin-vertical-layout spacing="true" :expand=""> 
+      <vaadin-horizontal-layout spacing="true"> 
+       <vaadin-label width="80px" plain-text="" :middle="">
+         Name 
+       </vaadin-label> 
+       <vaadin-label size-auto="true" plain-text="" _id="iconName" :middle="">
+         &lt;icon name&gt; 
+       </vaadin-label> 
+       <vaadin-button icon="fonticon://FontAwesome/f0ea" style-name="borderless" plain-text="" _id="copyNameButton" :expand=""></vaadin-button> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout spacing="true"> 
+       <vaadin-label width="80px" plain-text="" :middle="">
+         Icon URL 
+       </vaadin-label> 
+       <vaadin-label size-auto="true" plain-text="" _id="iconUrl" :middle="">
+         &lt;icon url&gt; 
+       </vaadin-label> 
+       <vaadin-button icon="fonticon://FontAwesome/f0ea" style-name="borderless" plain-text="" _id="copyUrlButton" :expand=""></vaadin-button> 
+      </vaadin-horizontal-layout> 
+     </vaadin-vertical-layout> 
+    </vaadin-horizontal-layout> 
+   </vaadin-horizontal-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>
